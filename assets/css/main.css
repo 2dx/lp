@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.displaynone {
+    display:none;
+}
+.linebreak {
+     word-wrap:break-word;
+}
+.maincol {
+    max-width: calc(100% - 250px);
+}
+@media screen and (max-width: 767px) {
+  .maincol {
+      min-width: 100%;
+  }
+}
