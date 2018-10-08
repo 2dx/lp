@@ -8,6 +8,27 @@
     	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css">
         <link rel="shortcut icon" href="assets/images/favicon.png">
+
+		<style>
+		.inner {
+			position: relative;
+		}
+
+		.inner div {
+			position: absolute;
+			top: 80%;
+			left: 50%;
+			-ms-transform: translate(-50%,-50%);
+			-webkit-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+			margin:0;
+			font-size: 32px;
+		}
+
+		.inner img {
+			width: 100%;
+		}
+        </style>
 	</head>
 	<body>
 		<!-- Header -->
@@ -49,21 +70,27 @@
 
         <div class="inner">
             <img src="assets/images/header.png" width="100%" alt="header">
+			<div class="btn btn-light"><a href="http://app.v4x.co" style="color:#006537;text-decoration:none;" target="_blank">α版を試そう! <i class="fas fa-caret-right"></i></a></div>
         </div>
 
         <div class="container mt-5">
           <h2>volvoxとは</h2>
           <p>
-              volvoxは、ブロックチェーン時代の新しい組織の形を実現するプラットフォームです。例えば、オープンソースのような、価値定義がなされていない活動に対して本来あるべき価値を与えることで、イノベーションを加速させます。
-
-              具体的にvolvoxで出来ることは、プロジェクトのトークンの発行とその分配です。トークンは、プロジェクトに対する個人の貢献度に応じて分配されます。この貢献度の算出を管理者が行う場合、中央集権的な組織となります。一方で、管理者ではなく、プロジェクトメンバー全員の意思により行う場合には、DAO(自律分散型組織)になります。volvoxでは、貢献度の算出方法を複数用意し、よりフレキシブルな組織の実現をサポートします。
+              volvoxは、ブロックチェーン時代の新しい組織の形を実現するプラットフォームです。
+			  例えば、オープンソースのような、価値定義がなされていない活動に対して本来あるべき
+			  価値を与えることで、イノベーションを加速させます。
           </p>
         </div>
 
 		<div class="container mt-5">
-        	<h2>解決する課題</h2>
+        	<h2>volvoxで何ができるのか</h2>
         	<p>
-				OSSは基本的にボランティアの貢献で成り立っています。 しかし、価値のあるプロジェクトは価値が付与されるべきです。 volvoxにより、価値がトークンという形でプロジェクトに付与されることで、イノベーションが大幅に加速するでしょう。
+				具体的にvolvoxで出来ることは、プロジェクトのトークンの発行とその分配です。
+				トークンは、プロジェクトに対する個人の貢献度に応じて分配されます。
+				この貢献度の算出を管理者が行う場合、中央集権的な組織となります。
+				一方で、管理者ではなく、プロジェクトメンバー全員の意思により行う場合には、
+				DAO(自律分散型組織)になります。volvoxでは、貢献度の算出方法を複数用意し、
+				よりフレキシブルな組織の実現をサポートします。
 			</p>
         </div>
 
@@ -106,7 +133,7 @@
         -->
 
         <div class="container mt-5">
-          <h2>team</h2>
+          <h2>チーム</h2>
           <div class="row">
             <div class="col-md-3 col-sm-6 mx-auto" style="width: 200px;">
               <img class="rounded-circle" src="assets/images/koga.jpg" alt="Yutaro Koga" width="140" height="140">
@@ -133,7 +160,7 @@
 
 
         <div class="container mt-5">
-            <h2>alpha version</h2>
+            <h2>α版</h2>
             <div class="mx-auto m-5" style="width: 220px;">
                 <p>
                     <a class="btn btn-success btn-lg" href="http://app.v4x.co/signup" target="_blank">Try volvox alpha 0.0.2</a>
