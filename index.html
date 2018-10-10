@@ -1,22 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<script>
+		<script>
 		function browserLanguage() {
-       try {
-         return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
-       }
-       catch(e) {
-         return undefined;
-       }
-     }
-    if (browserLanguage().indexOf("ja") != -1) {
-       location.replace("http://v4x.co/index.ja.html");
-     }
-     else {
-       location.replace("http://v4x.co/index.en.html");
-     }
-  </script>
+			try {
+				return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
+			}catch(e) {
+				return undefined;
+			}
+		}
+		if (browserLanguage().indexOf("ja") != -1) {
+			location.replace("http://v4x.co/index.ja.html");
+		}else {
+			location.replace("http://v4x.co/index.en.html");
+		}
+		</script>
 	</head>
 	<body>
 	</body>
